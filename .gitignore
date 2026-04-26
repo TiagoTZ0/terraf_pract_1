@@ -1,0 +1,27 @@
+# Carpetas de binarios y plugins
+.terraform/
+
+# Archivos de estado (¡SÚPER IMPORTANTES!)
+*.tfstate
+*.tfstate.backup
+
+# Archivos de variables (Aquí van tus secretos)
+*.tfvars
+*.tfvars.json
+
+# Archivos de configuración de variables locales
+*.tfvars.local
+
+# Archivos de override
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Logs y planes
+crash.log
+*.tfplan
+
+# Archivos de sistema (Opcional pero recomendado)
+.DS_Store
+Thumbs.db
